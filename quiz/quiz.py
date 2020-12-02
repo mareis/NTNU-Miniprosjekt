@@ -153,7 +153,7 @@ def quiz_svar():
 def gaa_til_meny(data):
     """Henter svar fra brukeren om quizen skal avsluttes eller gjentas
 
-    Parameters:
+    Parameters
     ----------
     data : list
         En list med dictionarys
