@@ -1,0 +1,2 @@
+# NTNU-Miniprosjekt
+ 
