@@ -1,5 +1,1 @@
-random
-os
-json
-math
-time
+sphinxcontrib.napoleon
