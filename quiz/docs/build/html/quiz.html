@@ -153,14 +153,14 @@
 <dl class="py function">
 <dt id="quiz.antall_forsoek">
 <code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">antall_forsoek</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.antall_forsoek" title="Permalink to this definition">¶</a></dt>
-<dd><p>Finner antall forsøk som er gjennomført ved å 
+<dd><p>Finner antall forsøk som er gjennomført ved å
 se på lengden til den første svart-lista i data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><dl class="simple">
-<dt>function</dt><dd><p>meny(data)</p>
+<dd class="field-odd"><p>meny(data)</p>
 </dd>
-</dl>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>function</p>
 </dd>
 </dl>
 </dd></dl>
@@ -171,18 +171,16 @@ se på lengden til den første svart-lista i data</p>
 <dd><p>Sammenligner avgitt svar med riktig svar og returnerer den summerte verdien.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>data</strong><span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
-</dd>
-<dt><strong>i</strong><span class="classifier">int</span></dt><dd><p>indeksen til frorsøket som det skal returneres antall rette til</p>
-</dd>
-</dl>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p></li>
+<li><p><strong>i</strong> (<em>int</em>) – indeksen til frorsøket som det skal returneres antall rette til</p></li>
+</ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><dl class="simple">
-<dt>int</dt><dd><p>Antall rette svar</p>
+<dd class="field-even"><p>Antall rette svar</p>
 </dd>
-</dl>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int</p>
 </dd>
 </dl>
 </dd></dl>
@@ -203,15 +201,13 @@ se på lengden til den første svart-lista i data</p>
 </dl>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><dl class="simple">
-<dt>Varier ut fra brukerens svar</dt><dd></dd>
-</dl>
+<dd class="field-odd"><p>meny(data)</p>
 </dd>
-<dt class="field-even">Raises</dt>
-<dd class="field-even"><dl class="simple">
-<dt>ValueError</dt><dd><p>Input-et må være en tom streng</p>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>function</p>
 </dd>
-</dl>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><strong>ValueError</strong> – Input-et må være en tom streng</p>
 </dd>
 </dl>
 </dd></dl>
@@ -222,10 +218,10 @@ se på lengden til den første svart-lista i data</p>
 <dd><p>Henter json-fil</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><dl class="simple">
-<dt>list</dt><dd><p>En list med dictionarys</p>
+<dd class="field-odd"><p>En list med dictionarys</p>
 </dd>
-</dl>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list</p>
 </dd>
 </dl>
 </dd></dl>
@@ -233,13 +229,13 @@ se på lengden til den første svart-lista i data</p>
 <dl class="py function">
 <dt id="quiz.main">
 <code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#quiz.main" title="Permalink to this definition">¶</a></dt>
-<dd><p>henter fil og starter menyen</p>
+<dd><p>Henter fil og starter menyen</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><dl class="simple">
-<dt>function</dt><dd><p>meny(data)</p>
+<dd class="field-odd"><p>meny(data)</p>
 </dd>
-</dl>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>function</p>
 </dd>
 </dl>
 </dd></dl>
@@ -250,22 +246,16 @@ se på lengden til den første svart-lista i data</p>
 <dd><p>Skriver ut meny og håndterer brukervalg.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>data</strong><span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
-</dd>
-</dl>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><dl class="simple">
-<dt>function</dt><dd><p>Avhenger av brukerens valg</p>
+<dd class="field-even"><p>Avhenger av brukerens valg</p>
 </dd>
-</dl>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>function</p>
 </dd>
-<dt class="field-odd">Raises</dt>
-<dd class="field-odd"><dl class="simple">
-<dt>ValueError</dt><dd><p>Input-et må være et heltall mellom 1 og 3</p>
-</dd>
-</dl>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Input-et må være et heltall mellom 1 og 3</p>
 </dd>
 </dl>
 </dd></dl>
@@ -276,16 +266,13 @@ se på lengden til den første svart-lista i data</p>
 <dd><p>Sammenligner avgitt svar med riktig svar returnerer liste med indeksene til svarene som er feil.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>data</strong><span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
-</dd>
-</dl>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><dl class="simple">
-<dt>list</dt><dd><p>En list med indeksene til de spørsmålene som er besvart feil.</p>
+<dd class="field-even"><p>En list med indeksene til de spørsmålene som er besvart feil.</p>
 </dd>
-</dl>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list</p>
 </dd>
 </dl>
 </dd></dl>
@@ -296,16 +283,13 @@ se på lengden til den første svart-lista i data</p>
 <dd><p>Logikken til quizen</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>data</strong><span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
-</dd>
-</dl>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><dl class="simple">
-<dt>function</dt><dd><p>skriv_ut_raport(data)</p>
+<dd class="field-even"><p>skriv_ut_raport(data)</p>
 </dd>
-</dl>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>function</p>
 </dd>
 </dl>
 </dd></dl>
@@ -316,22 +300,16 @@ se på lengden til den første svart-lista i data</p>
 <dd><p>Henter svar fra brukeren om hvilket alternativ som er valgt.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>data</strong><span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
-</dd>
-</dl>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><dl class="simple">
-<dt>int</dt><dd><p>Brukerens svar på flervalgsoppgaven</p>
+<dd class="field-even"><p>Brukerens svar på flervalgsoppgaven</p>
 </dd>
-</dl>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int</p>
 </dd>
-<dt class="field-odd">Raises</dt>
-<dd class="field-odd"><dl class="simple">
-<dt>ValueError</dt><dd><p>Input-et må være et heltall mellom 1 og 3</p>
-</dd>
-</dl>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Input-et må være et heltall mellom 1 og 3</p>
 </dd>
 </dl>
 </dd></dl>
@@ -349,10 +327,7 @@ oppleves som terminalen tømmes.</p>
 <dd><p>Skriver listen med dictionarys til fil.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>data</strong><span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
-</dd>
-</dl>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
 </dd>
 </dl>
 </dd></dl>
@@ -363,10 +338,7 @@ oppleves som terminalen tømmes.</p>
 <dd><p>Skriver ut hvilke spørsmål og besvart alternativ som ble feil.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>data</strong><span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
-</dd>
-</dl>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
 </dd>
 </dl>
 </dd></dl>
@@ -383,10 +355,7 @@ oppleves som terminalen tømmes.</p>
 <dd><p>Skriver ut resultat of evt. feilene som er gjort.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>data</strong><span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
-</dd>
-</dl>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
 </dd>
 </dl>
 </dd></dl>
@@ -397,14 +366,11 @@ oppleves som terminalen tømmes.</p>
 <dd><p>Skriver ut spørsmålet og tilhørende svaralternativer.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>i</strong><span class="classifier">int</span></dt><dd><p>Indeksen til dictionaryen i data-lista vi skal skrive ut</p>
-</dd>
-<dt><strong>data</strong><span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
-</dd>
-<dt><strong>n</strong><span class="classifier">int</span></dt><dd><p>Nummer på spørsmålet</p>
-</dd>
-</dl>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>i</strong> (<em>int</em>) – Indeksen til dictionaryen i data-lista vi skal skrive ut</p></li>
+<li><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p></li>
+<li><p><strong>n</strong> (<em>int</em>) – Nummer på spørsmålet</p></li>
+</ul>
 </dd>
 </dl>
 </dd></dl>
@@ -415,16 +381,13 @@ oppleves som terminalen tømmes.</p>
 <dd><p>Skriver ut tabell med resultaten til alle forsøkene</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>data</strong><span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
-</dd>
-</dl>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><dl class="simple">
-<dt>function</dt><dd><p>gaa_til_meny(data)</p>
+<dd class="field-even"><p>gaa_til_meny(data)</p>
 </dd>
-</dl>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>function</p>
 </dd>
 </dl>
 </dd></dl>
@@ -435,16 +398,13 @@ oppleves som terminalen tømmes.</p>
 <dd><p>Sletter listene med tidligere svar</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>data</strong><span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
-</dd>
-</dl>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><dl class="simple">
-<dt>function</dt><dd><p>meny(data)</p>
+<dd class="field-even"><p>meny(data)</p>
 </dd>
-</dl>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>function</p>
 </dd>
 </dl>
 </dd></dl>

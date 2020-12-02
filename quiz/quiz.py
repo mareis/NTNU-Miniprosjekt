@@ -8,8 +8,7 @@ import time
 
 
 def main():
-    """
-    henter fil og starter menyen
+    """Henter fil og starter menyen
 
     Returns
     -------
@@ -22,8 +21,7 @@ def main():
 
 
 def quiz(data):
-    """
-    Logikken til quizen
+    """Logikken til quizen
 
     Parameters
     ----------
@@ -50,8 +48,7 @@ def quiz(data):
 
 
 def meny(data):
-    """
-    Skriver ut meny og håndterer brukervalg.
+    """Skriver ut meny og håndterer brukervalg.
 
     Parameters
     ----------
@@ -120,8 +117,7 @@ def avslutt():
 
 
 def quiz_svar():
-    """
-    Henter svar fra brukeren om hvilket alternativ som er valgt.
+    """Henter svar fra brukeren om hvilket alternativ som er valgt.
 
     Parameters
     ----------
@@ -155,8 +151,7 @@ def quiz_svar():
 
 
 def gaa_til_meny(data):
-    """
-    Henter svar fra brukeren om quizen skal avsluttes eller gjentas
+    """Henter svar fra brukeren om quizen skal avsluttes eller gjentas
 
     Parameters:
     ----------
@@ -241,8 +236,7 @@ def antall_rette(data, i):
 
 
 def oppgaver_med_feil(data):
-    """
-    Sammenligner avgitt svar med riktig svar returnerer liste med indeksene til svarene som er feil.
+    """Sammenligner avgitt svar med riktig svar returnerer liste med indeksene til svarene som er feil.
 
     Parameters
     ----------
@@ -263,8 +257,7 @@ def oppgaver_med_feil(data):
 
 
 def skriv_ut_feil(data):
-    """
-    Skriver ut hvilke spørsmål og besvart alternativ som ble feil.
+    """Skriver ut hvilke spørsmål og besvart alternativ som ble feil.
 
     Parameters
     ----------
@@ -278,8 +271,7 @@ def skriv_ut_feil(data):
 
 
 def skriv_til_fil(data):
-    """
-    Skriver listen med dictionarys til fil.
+    """Skriver listen med dictionarys til fil.
 
     Parameters
     ----------
@@ -291,8 +283,7 @@ def skriv_til_fil(data):
 
 
 def hent_fra_fil():
-    """
-    Henter json-fil
+    """Henter json-fil
 
     Returns
     -------
@@ -304,8 +295,7 @@ def hent_fra_fil():
 
 
 def skriv_ut_rapport(data):
-    """
-    Skriver ut resultat of evt. feilene som er gjort.
+    """Skriver ut resultat of evt. feilene som er gjort.
 
     Parameters
     ----------
@@ -329,8 +319,7 @@ def skriv_ut_rapport(data):
 
 
 def skriv_ut_statistikk(data):
-    """
-    Skriver ut tabell med resultaten til alle forsøkene
+    """Skriver ut tabell med resultaten til alle forsøkene
 
     Parameters
     ----------
@@ -363,8 +352,7 @@ def skriv_ut_statistikk(data):
 
 
 def antall_forsoek(data):
-    """
-    Finner antall forsøk som er gjennomført ved å 
+    """Finner antall forsøk som er gjennomført ved å 
     se på lengden til den første svart-lista i data
 
     Returns
@@ -376,8 +364,7 @@ def antall_forsoek(data):
 
 
 def slett_data(data):
-    """
-    Sletter listene med tidligere svar
+    """Sletter listene med tidligere svar
 
     Parameters
     ----------
@@ -403,8 +390,7 @@ def slett_data(data):
 
 
 def rydd_terminal():
-    """
-    Dytter innholde i terminalen opp slik at det
+    """Dytter innholde i terminalen opp slik at det
     oppleves som terminalen tømmes.
      """
 
