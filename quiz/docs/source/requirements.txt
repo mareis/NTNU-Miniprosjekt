@@ -1,1 +1,1 @@
-numpydocs
+sphinxcontrib.napoleon
