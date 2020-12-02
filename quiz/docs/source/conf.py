@@ -21,6 +21,7 @@ project = 'Quiz'
 copyright = '2020, Vibeke og Mads'
 author = 'Vibeke og Mads'
 
+master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 
