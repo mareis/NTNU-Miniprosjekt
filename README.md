@@ -5,7 +5,7 @@ Et git-repo med filer til miniprosjekt i IT6203 på NTNU
 
 ## Undervisningsopplegg i Jupyter
     
-- [Andregradformelen](undervisning/Andregradsformelen.ipynb)
+- [Andregradsformelen](undervisning/andregradsformelen.ipynb)
 
 - [Halveringsmetoden](undervisning/Halveringsmetoden.ipynb)
 
@@ -91,13 +91,13 @@ Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom v
 
 - **Design**
 
-    Andregradsformelen
+    [Andregradsformelen](undervisning/andregradsformelen.ipynb)
  
 
     <img src="undervisning/bilder/andregradsformelen.svg">
         
 
-    Halveringsmetoden
+    [Halveringsmetoden](undervisning/Halveringsmetoden.ipynb)
 
     <img src="undervisning/bilder/halveringsmetoden-2.svg">
 
