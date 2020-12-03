@@ -1,1 +1,32 @@
-[{"sporsmal": "Hvilken metode fungerer bare med andregradslikninger?", "alternativer": ["Newtons metode", "Andregradsformelen", "Halveringsmetoden"], "rett": 1, "svart": [1, 2]}, {"sporsmal": "sp", "alternativer": ["Newtons metode", "Andregradsformelen", "Halveringsmetoden"], "rett": 0, "svart": [0, 1]}, {"sporsmal": "4radslikninger", "alternativer": ["Newtons metode", "Andregradsformelen", "Halveringsmetoden"], "rett": 2, "svart": [2, 0]}]
+[
+    {
+        "sporsmal": "Hvilken metode fungerer bare for andregradslikninger?",
+        "alternativer": [
+            "Produktregelen",
+            "Andregradsformelen",
+            "Halveringsmetoden"
+        ],
+        "rett": 1,
+        "svart": []
+    },
+    {
+        "sporsmal": "Hvor hvor mange nullpunkt har en andregradsfunksjon når diskriminanten er lik 0? ",
+        "alternativer": [
+            "0",
+            "1",
+            "2"
+        ],
+        "rett": 1,
+        "svart": []
+    },
+    {
+        "sporsmal": "Hvor hvor mange nullpunkt har en andregradsfunksjon når diskriminanten er negativ? ",
+        "alternativer": [
+            "0",
+            "1",
+            "2"
+        ],
+        "rett": 0,
+        "svart": []
+    }
+]

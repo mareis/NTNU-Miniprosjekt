@@ -1,0 +1,32 @@
+[
+    {
+        "sporsmal": "Hvilken metode fungerer bare med andregradslikninger?",
+        "alternativer": [
+            "Newtons metode",
+            "Andregradsformelen",
+            "Halveringsmetoden"
+        ],
+        "rett": 1,
+        "svart": []
+    },
+    {
+        "sporsmal": "sp",
+        "alternativer": [
+            "Newtons metode",
+            "Andregradsformelen",
+            "Halveringsmetoden"
+        ],
+        "rett": 0,
+        "svart": []
+    },
+    {
+        "sporsmal": "4radslikninger",
+        "alternativer": [
+            "Newtons metode",
+            "Andregradsformelen",
+            "Halveringsmetoden"
+        ],
+        "rett": 2,
+        "svart": []
+    }
+]
