@@ -22,7 +22,7 @@ Et git-repo med filer til miniprosjekt i IT6203 på NTNU
 
 Lag et program som forklarer et valgfritt konsept i et emne du underviser i, for eksempel
 sannsynlighetsregning med en terning. Programmet skal forklare konseptet, og vise utregning eller
-bruke input fra bruker for å komme frem til et resultat. Programmet skal kunne styres av bru
+brukerinput fra bruker for å komme frem til et resultat. Programmet skal kunne styres av bru
 keren
 ved hjelp av input.
 
