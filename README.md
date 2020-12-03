@@ -34,8 +34,8 @@ Dere står fritt frem til å løse programmerings-delen av oppgaven slik dere ø
 
 Vi valgte å dele opp oppgaven i 2 deler. 
 
-    Del 1: Undervisningsopplegg i Jupyter
-    Del 2: En terminalquiz som py-fil 
+- Del 1: Undervisningsopplegg i Jupyter
+- Del 2: En terminalquiz som py-fil 
 
 For oss virket det unaturlig å lage et terminal-program som skulle "forklare" et matematiske konsept fra *Matematikk 1T*. Vi valgte derfor å overse dette og bruke jupyter til den delen. 
 
