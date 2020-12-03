@@ -29,7 +29,7 @@ ved hjelp av input.
 Dere står fritt frem til å løse programmerings-delen av oppgaven slik dere ønsker, det eneste kravet er at det må skrives i Python og leveres som .py-fil. Alle punktene i malen for prosjektplan og -rapport skal besvares. Her er det ingen krav, eller begrensning, på lengde.
 
 
-### 1 Tolking av oppgaven:
+### 1 Tolking av oppgaven
 ---
 
 Vi valgte å dele opp oppgaven i 2 deler. 
@@ -42,7 +42,7 @@ For oss virket det unaturlig å lage et terminal-program som skulle "forklare" e
 Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom vi frem til at vi kunne vise tilstreklig kompetanse ved å lage en brukerstyrt terminalquiz. Spørsmål og resultat skrives til fil og programmet skriver ut historikk og statistikk. Quizen har spørsmål fra Undervisningsopplegget i Jupyter.
  
 
-### 2. Praktiske hensyn 
+### 2 Praktiske hensyn 
 ---
 
 - **Verktøy:** Visual Studio Code med , Python, Jupyther og Live Share Extansion.
@@ -79,7 +79,7 @@ Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom v
 
 
 
-### 3. Løsning
+### 3 Løsning
 ---
 
 
@@ -103,15 +103,16 @@ Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom v
 
 - Implementering
         
-        Valget falt på jupyter, skriv noe om det
+        For å kunne formidle den eksplisitte og den numeriske metoden for å finne nullpunkt var det mest hensiktsmessig å bruke Jupyter.
+
+        Det er en utmerket platfor for kombinere bilder, matematsk notasjon og programmering. Alt er i tilleg redigerbart for elevene, slik at det gir rom for å utforske og eksperimentere. 
+
 
 
 - Testing og revidering
 
-        Skrive noe om at andregradfformel.ipyb er testet på elevene. Det har blitt gjort følgende revideringer:
+        Notebookene er testet på lærere og elever på skolen, men har foreløpig ikke hatt behov for revidering.
 
-
- 
 
 
 #### **Quiz**
@@ -120,14 +121,22 @@ Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom v
 
 - Design
         
-        Skrive noe tull 
+        Her fokuserte vi på datastrukturen til dataene til quizen. Vi valgte å plasere dataene i en ekstern json-fil slik at historikken til brukeren ble lagret lokalt.
+
+    **UI**
+        <img src="undervisning/bilder/quiz.png">
+
+
         
 - Implementering
 
-        [quiz.py](quiz/quiz.py)
+    [Dokumentasjon](https://ntnu-miniprosjekt.readthedocs.io/en/latest/quiz.html)
 
-        [Dokumentasjon](https://ntnu-miniprosjekt.readthedocs.io/en/latest/quiz.html)
+    [quiz.py](quiz/quiz.py)
 
+    
 - Testing og revidering
 
-        pytest-biblioteket og try exept
+        pytest-biblioteket og kjørt tester på enkelte av funksjonene. Spesielt de som håndterer brukerinputt. For å håndtere feilene som dukket opp ved testingen brukte vi try og except. Vi håndterte kun ValueError. 
+
+        Siden det er et terminalprogram der terminalene i de forskjellige operativsystemene er ulike har vi tatt hensyn til det.
