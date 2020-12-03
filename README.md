@@ -85,58 +85,62 @@ Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom v
 
 #### **Undervisningsopplegg**
 
-- Analyse
+- **Analyse**
 
-- Design
+    Kommer
 
-        Andregradsformelen
+- **Design**
 
-        
+    Andregradsformelen
+ 
 
     <img src="undervisning/bilder/andregradsformelen.svg">
         
-        Halveringsmetoden
+
+    Halveringsmetoden
 
     <img src="undervisning/bilder/halveringsmetoden-2.svg">
 
 
 
-- Implementering
+- **Implementering**
         
-        For å kunne formidle den eksplisitte og den numeriske metoden for å finne nullpunkt var det mest hensiktsmessig å bruke Jupyter.
+    For å kunne formidle den eksplisitte og den numeriske metoden for å finne nullpunkt var det mest hensiktsmessig å bruke Jupyter.
 
-        Det er en utmerket platfor for kombinere bilder, matematsk notasjon og programmering. Alt er i tilleg redigerbart for elevene, slik at det gir rom for å utforske og eksperimentere. 
+    Det er en utmerket platfor for kombinere bilder, matematsk notasjon og programmering. Alt er i tilleg redigerbart for elevene, slik at det gir rom for å utforske og eksperimentere. 
 
 
 
-- Testing og revidering
+- **Testing og revidering**
 
-        Notebookene er testet på lærere og elever på skolen, men har foreløpig ikke hatt behov for revidering.
+    Notebookene er testet på lærere og elever på skolen, men har foreløpig ikke hatt behov for revidering.
 
 
 
 #### **Quiz**
 
-- Analyse
+- **Analyse**
 
-- Design
+    kommer
+
+- **Design**
         
-        Her fokuserte vi på datastrukturen til dataene til quizen. Vi valgte å plasere dataene i en ekstern json-fil slik at historikken til brukeren ble lagret lokalt.
+    Her fokuserte vi på datastrukturen til dataene til quizen. Vi valgte å plasere dataene i en ekstern json-fil slik at historikken til brukeren ble lagret lokalt.
 
     **UI**
         <img src="undervisning/bilder/quiz.png">
 
 
         
-- Implementering
+- **Implementering**
 
     [Dokumentasjon](https://ntnu-miniprosjekt.readthedocs.io/en/latest/quiz.html)
 
     [quiz.py](quiz/quiz.py)
 
     
-- Testing og revidering
+- **Testing og revidering**
 
-        pytest-biblioteket og kjørt tester på enkelte av funksjonene. Spesielt de som håndterer brukerinputt. For å håndtere feilene som dukket opp ved testingen brukte vi try og except. Vi håndterte kun ValueError. 
+    pytest-biblioteket og kjørt tester på enkelte av funksjonene. Spesielt de som håndterer brukerinputt. For å håndtere feilene som dukket opp ved testingen brukte vi try og except. Vi håndterte kun ValueError. 
 
-        Siden det er et terminalprogram der terminalene i de forskjellige operativsystemene er ulike har vi tatt hensyn til det.
+    Siden det er et terminalprogram der terminalene i de forskjellige operativsystemene er ulike har vi tatt hensyn til det.
