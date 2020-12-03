@@ -2,6 +2,7 @@
 
 Et git-repo med filer til miniprosjekt i IT6203 på NTNU
 
+[NTNU-Miniprosjekt](https://github.com/mareis/NTNU-Miniprosjekt)
 
 ## Undervisningsopplegg i Jupyter
     
