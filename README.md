@@ -67,13 +67,13 @@ Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom v
 
 - **Planlagt tid**
     - Undervisningsopplegg:
-        - Analyse:  **? timer**
+        - Analyse:  **1 timer**
         - Design: **2 timer**
         - Implementering **12 timer**
         - Testing og revidering **1 time**
 
     - Quiz:
-        - Analyse:  **? timer**
+        - Analyse:  **1 timer**
         - Design: **5 timer**
         - Implementering:  **26 timer**
         - Testing og revidering:  **4 timer**
