@@ -88,7 +88,7 @@ Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom v
 
 - **Analyse**
 
-    Kommer
+    Se jupyter-dokument for detaljer.
 
 - **Design**
 
