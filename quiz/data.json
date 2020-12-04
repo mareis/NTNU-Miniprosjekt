@@ -7,10 +7,7 @@
             "Halveringsmetoden"
         ],
         "rett": 1,
-        "svart": [
-            0,
-            1
-        ]
+        "svart": []
     },
     {
         "sporsmal": "Når en andregradsfunksjon har ett nullpunkt, er diskriminanten",
@@ -20,10 +17,7 @@
             "Positiv"
         ],
         "rett": 1,
-        "svart": [
-            0,
-            1
-        ]
+        "svart": []
     },
     {
         "sporsmal": "Når en andregradsfunksjon har to nullpunkt, er diskriminanten  ",
@@ -33,9 +27,6 @@
             "Positiv"
         ],
         "rett": 2,
-        "svart": [
-            0,
-            1
-        ]
+        "svart": []
     }
 ]
