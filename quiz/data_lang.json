@@ -1,0 +1,162 @@
+[
+    {
+        "sporsmal": "Hvilken metode fungerer bare for andregradslikninger?",
+        "alternativer": [
+            "Produktregelen",
+            "Andregradsformelen",
+            "Halveringsmetoden"
+        ],
+        "rett": 1,
+        "svart": []
+    },
+    {
+        "sporsmal": "Hvor hvor mange nullpunkt har en andregradsfunksjon når diskriminanten er lik 0? ",
+        "alternativer": [
+            "0",
+            "1",
+            "2"
+        ],
+        "rett": 1,
+        "svart": []
+    },
+    {
+        "sporsmal": "Hvor hvor mange nullpunkt har en andregradsfunksjon når diskriminanten er negativ? ",
+        "alternativer": [
+            "0",
+            "1",
+            "2"
+        ],
+        "rett": 0,
+        "svart": []
+    },
+    {
+        "sporsmal": "Hvor hvor mange nullpunkt har en andregradsfunksjon når diskriminanten er positiv? ",
+        "alternativer": [
+            "0",
+            "1",
+            "2"
+        ],
+        "rett": 2,
+        "svart": []
+    },
+    {
+        "sporsmal": "Når en andregradsfunksjon ikke har nullpunkt, hvilke verdi har diskriminanten?  ",
+        "alternativer": [
+            "Negativ",
+            "Null",
+            "Positiv"
+        ],
+        "rett": 0,
+        "svart": []
+    }, 
+    {
+        "sporsmal": "Når en andregradsfunksjon har et nullpunkt, hvilke verdi har diskriminanten?  ",
+        "alternativer": [
+            "Negativ",
+            "Null",
+            "Positiv"
+        ],
+        "rett": 1,
+        "svart": []
+    },
+    {
+        "sporsmal": "Når en andregradsfunksjon har to nullpunkt, hvilke verdi har diskriminanten?  ",
+        "alternativer": [
+            "Negativ",
+            "Null",
+            "Positiv"
+        ],
+        "rett": 2,
+        "svart": []
+    },
+    {
+        "sporsmal": "Ved bruk av andregradsformelen. Gitt andregradsfunksjonen f(x) = 2x^2 + 4x - 3, hvilke verdi har a?  ",
+        "alternativer": [
+            "-3",
+            "2",
+            "4"
+        ],
+        "rett": 1,
+        "svart": []
+    },
+    {
+        "sporsmal": "Ved bruk av andregradsformelen. Gitt andregradsfunksjonen f(x) = 2x^2 + 4x - 3, hvilke verdi har b?  ",
+        "alternativer": [
+            "-3",
+            "2",
+            "4"
+        ],
+        "rett": 2,
+        "svart": []
+    },
+    {
+        "sporsmal": " Ved bruk av andregradsformelen. Gitt andregradsfunksjonen f(x) = 2x^2 + 4x - 3, hvilke verdi har b?  ",
+        "alternativer": [
+            "-3",
+            "2",
+            "4"
+        ],
+        "rett": 0,
+        "svart": []
+    },
+    {
+        "sporsmal": "For hvilke funksjoner fungerer halveringsmetoden?  ",
+        "alternativer": [
+            "For alle funksjoner med nullpunkt. ",
+            "For alle funksjoner med konstantledd, krysser y-aksen.",
+            "Kun for andregradsfunksjoner. "
+        ],
+        "rett": 0,
+        "svart": []
+    },
+    {
+        "sporsmal": "Hva er lurt å gjøre før du skal bruke halveringsmetoden? ",
+        "alternativer": [
+            "Velge deg et midtpunkt.  ",
+            "Tegne funksjonen. ",
+            "Regne ut nullpunktene "
+        ],
+        "rett": 1,
+        "svart": []
+    },
+    {
+        "sporsmal": "Ved bruk av halveringsmetoden, hva gjør du om f(a) * f(m) > null? ",
+        "alternativer": [
+            "Setter midtpunktet lik b, og gjentar halveringsmetoden for det nye intervallet.  ",
+            "Tegner funksjonen. ",
+            "Går bort fra dette intervallet, og ser på det øvre intervallet [m,b].  "
+        ],
+        "rett": 0,
+        "svart": []
+    },
+    {
+        "sporsmal": "Ved bruk av halveringsmetoden, hva betyr det at f(a) * f(m) > null? ",
+        "alternativer": [
+            "Nullpunktet ligger i intervallet.  ",
+            "Funksjonen har ikke nullpunkt.  ",
+            "Nullpunktet ligger ikke i intervallet.  "
+        ],
+        "rett": 0,
+        "svart": []
+    },
+    {
+        "sporsmal": "Ved bruk av halveringsmetoden, hva betyr det at f(a) * f(m) < null? ",
+        "alternativer": [
+            "Nullpunktet ligger i intervallet.  ",
+            "Funksjonen har ikke nullpunkt.  ",
+            "Nullpunktet ligger ikke i intervallet.  "
+        ],
+        "rett": 2,
+        "svart": []
+    },
+    {
+        "sporsmal": "Ved bruk av halveringsmetoden, hva gjør du om  f(a) * f(m) < null? ",
+        "alternativer": [
+            "Nullpunktet ligger i intervallet. Gjentar halveringsmetoden i dette intervallet.  ",
+            "Funksjonen har ikke nullpunkt.  ",
+            "Nullpunktet ligger ikke i intervallet. Går til det andre intervallet og utfører halveringsmetoden der.  "
+        ],
+        "rett": 2,
+        "svart": []
+    }
+]
