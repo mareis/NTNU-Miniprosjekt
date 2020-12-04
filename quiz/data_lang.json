@@ -48,7 +48,7 @@
         ],
         "rett": 0,
         "svart": []
-    }, 
+    },
     {
         "sporsmal": "Når en andregradsfunksjon har et nullpunkt, hvilke verdi har diskriminanten?  ",
         "alternativer": [
@@ -130,7 +130,7 @@
         "svart": []
     },
     {
-        "sporsmal": "Ved bruk av halveringsmetoden, hva betyr det at f(a) * f(m) > null? ",
+        "sporsmal": "Ved bruk av halveringsmetoden, hva betyr det at f(a) * f(m) > 0? ",
         "alternativer": [
             "Nullpunktet ligger i intervallet.  ",
             "Funksjonen har ikke nullpunkt.  ",
@@ -140,7 +140,7 @@
         "svart": []
     },
     {
-        "sporsmal": "Ved bruk av halveringsmetoden, hva betyr det at f(a) * f(m) < null? ",
+        "sporsmal": "Ved bruk av halveringsmetoden, hva betyr det at f(a) * f(m) < 0? ",
         "alternativer": [
             "Nullpunktet ligger i intervallet.  ",
             "Funksjonen har ikke nullpunkt.  ",
@@ -150,7 +150,7 @@
         "svart": []
     },
     {
-        "sporsmal": "Ved bruk av halveringsmetoden, hva gjør du om  f(a) * f(m) < null? ",
+        "sporsmal": "Ved bruk av halveringsmetoden, hva gjør du om  f(a) * f(m) < 0? ",
         "alternativer": [
             "Nullpunktet ligger i intervallet. Gjentar halveringsmetoden i dette intervallet.  ",
             "Funksjonen har ikke nullpunkt.  ",

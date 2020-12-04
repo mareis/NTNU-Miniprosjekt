@@ -385,6 +385,7 @@ def slett_data(data):
     skriv_ut_linjer()
 
     time.sleep(1.5)
+    skriv_til_fil(data)
     return meny(data)
 
 
