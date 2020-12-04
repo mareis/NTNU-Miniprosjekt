@@ -6,7 +6,7 @@ Et git-repo med filer til miniprosjekt i IT6203 på NTNU
 
 ## Undervisningsopplegg i Jupyter
     
-- [Andregradsformelen](undervisning/andregradsformelen.ipynb)
+- [Andregradsformelen](undervisning/Andregradsformelen.ipynb)
 
 - [Halveringsmetoden](undervisning/Halveringsmetoden.ipynb)
 
@@ -95,7 +95,7 @@ Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom v
 
 - **Design**
 
-    [Andregradsformelen](undervisning/andregradsformelen.ipynb)
+    [Andregradsformelen](undervisning/Andregradsformelen.ipynb)
  
 
     <img src="undervisning/bilder/andregradsformelen.svg">
@@ -109,7 +109,7 @@ Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom v
 
 - **Implementering**
 
-    - [Andregradsformelen](undervisning/andregradsformelen.ipynb)
+    - [Andregradsformelen](undervisning/Andregradsformelen.ipynb)
     - [Halveringsmetoden](undervisning/Halveringsmetoden.ipynb)
         
     For å kunne formidle den eksplisitte og den numeriske metoden for å finne nullpunkt var det mest hensiktsmessig å bruke Jupyter.
