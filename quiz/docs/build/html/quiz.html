@@ -1,0 +1,468 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>quiz module &mdash; Quiz  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Quiz-dokumentasjon!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> Quiz
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">quiz module</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Quiz</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>quiz module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/quiz.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-quiz">
+<span id="quiz-module"></span><h1>quiz module<a class="headerlink" href="#module-quiz" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="quiz.antall_forsoek">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">antall_forsoek</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.antall_forsoek" title="Permalink to this definition">¶</a></dt>
+<dd><p>Finner antall forsøk som er gjennomført ved å
+se på lengden til den første svart-lista i data</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>meny(data)</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>function</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.antall_rette">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">antall_rette</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">i</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.antall_rette" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sammenligner avgitt svar med riktig svar og returnerer den summerte verdien.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p></li>
+<li><p><strong>i</strong> (<em>int</em>) – indeksen til frorsøket som det skal returneres antall rette til</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Antall rette svar</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.avslutt">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">avslutt</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#quiz.avslutt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tømmer terminalen og avslutter programmet</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.gaa_til_meny">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">gaa_til_meny</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.gaa_til_meny" title="Permalink to this definition">¶</a></dt>
+<dd><p>Henter svar fra brukeren om quizen skal avsluttes eller gjentas</p>
+<dl class="simple">
+<dt>data<span class="classifier">list</span></dt><dd><p>En list med dictionarys</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>meny(data)</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>function</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><strong>ValueError</strong> – Input-et må være en tom streng</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.hent_fra_fil">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">hent_fra_fil</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#quiz.hent_fra_fil" title="Permalink to this definition">¶</a></dt>
+<dd><p>Henter json-fil</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>En list med dictionarys</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.main">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#quiz.main" title="Permalink to this definition">¶</a></dt>
+<dd><p>Henter fil og starter menyen</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>meny(data)</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>function</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.meny">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">meny</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.meny" title="Permalink to this definition">¶</a></dt>
+<dd><p>Skriver ut meny og håndterer brukervalg.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Avhenger av brukerens valg</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>function</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Input-et må være et heltall mellom 1 og 3</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.oppgaver_med_feil">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">oppgaver_med_feil</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.oppgaver_med_feil" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sammenligner avgitt svar med riktig svar returnerer liste med indeksene til svarene som er feil.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>En list med indeksene til de spørsmålene som er besvart feil.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.quiz">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">quiz</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.quiz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Logikken til quizen</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>skriv_ut_raport(data)</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>function</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.quiz_svar">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">quiz_svar</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#quiz.quiz_svar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Henter svar fra brukeren om hvilket alternativ som er valgt.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Brukerens svar på flervalgsoppgaven</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Input-et må være et heltall mellom 1 og 3</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.rydd_terminal">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">rydd_terminal</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#quiz.rydd_terminal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Dytter innholde i terminalen opp slik at det
+oppleves som terminalen tømmes.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.skriv_til_fil">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">skriv_til_fil</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.skriv_til_fil" title="Permalink to this definition">¶</a></dt>
+<dd><p>Skriver listen med dictionarys til fil.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.skriv_ut_feil">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">skriv_ut_feil</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.skriv_ut_feil" title="Permalink to this definition">¶</a></dt>
+<dd><p>Skriver ut hvilke spørsmål og besvart alternativ som ble feil.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.skriv_ut_linjer">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">skriv_ut_linjer</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#quiz.skriv_ut_linjer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Skriver ut to linjer</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.skriv_ut_rapport">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">skriv_ut_rapport</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.skriv_ut_rapport" title="Permalink to this definition">¶</a></dt>
+<dd><p>Skriver ut resultat of evt. feilene som er gjort.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.skriv_ut_sporsmal_quiz">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">skriv_ut_sporsmal_quiz</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">i</span></em>, <em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">nr</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.skriv_ut_sporsmal_quiz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Skriver ut spørsmålet og tilhørende svaralternativer.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>i</strong> (<em>int</em>) – Indeksen til dictionaryen i data-lista vi skal skrive ut</p></li>
+<li><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p></li>
+<li><p><strong>n</strong> (<em>int</em>) – Nummer på spørsmålet</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.skriv_ut_statistikk">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">skriv_ut_statistikk</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.skriv_ut_statistikk" title="Permalink to this definition">¶</a></dt>
+<dd><p>Skriver ut tabell med resultaten til alle forsøkene</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>gaa_til_meny(data)</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>function</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="quiz.slett_data">
+<code class="sig-prename descclassname">quiz.</code><code class="sig-name descname">slett_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#quiz.slett_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sletter listene med tidligere svar</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>list</em>) – En list med dictionarys</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>meny(data)</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>function</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Quiz-dokumentasjon!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Vibeke og Mads
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
