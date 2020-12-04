@@ -29,10 +29,7 @@ master_doc = 'index'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.autodoc',
-              'sphinxcontrib.napoleon', 'rst2pdf.pdfbuilder']
-
-
-pdf_documents = [('index', u'rst2pdf', u'Sample rst2pdf doc', u'Your Name'), ]
+              'sphinxcontrib.napoleon']
 
 
 # Add any paths that contain templates here, relative to this directory.
