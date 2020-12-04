@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "sporsmal": "Hvilken metode fungerer bare for andregradslikninger?",
         "alternativer": [
@@ -7,26 +7,35 @@
             "Halveringsmetoden"
         ],
         "rett": 1,
-        "svart": []
+        "svart": [
+            0,
+            1
+        ]
     },
     {
-        "sporsmal": "Når en andregradsfunksjon har et nullpunkt, hvilke verdi har diskriminanten?  ",
+        "sporsmal": "Når en andregradsfunksjon har ett nullpunkt, er diskriminanten",
         "alternativer": [
             "Negativ",
             "Null",
             "Positiv"
         ],
         "rett": 1,
-        "svart": []
+        "svart": [
+            0,
+            1
+        ]
     },
     {
-        "sporsmal": "Når en andregradsfunksjon har to nullpunkt, hvilke verdi har diskriminanten?  ",
+        "sporsmal": "Når en andregradsfunksjon har to nullpunkt, er diskriminanten  ",
         "alternativer": [
             "Negativ",
             "Null",
             "Positiv"
         ],
         "rett": 2,
-        "svart": []
+        "svart": [
+            0,
+            1
+        ]
     }
 ]

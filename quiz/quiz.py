@@ -277,8 +277,8 @@ def skriv_til_fil(data):
     data : list
         En list med dictionarys
     """
-    with open('data.json', 'w') as fout:
-        json.dump(data, fout)
+    with open('data.json', 'w', encoding='utf-8-sig') as fil:
+        json.dump(data, fil)
 
 
 def hent_fra_fil():
@@ -289,8 +289,8 @@ def hent_fra_fil():
     list
         En list med dictionarys
     """
-    with open(r"data.json", "r") as read_file:
-        return json.load(read_file)
+    with open(r"data.json", "r", encoding='utf-8-sig') as les_fil:
+        return json.load(les_fil)
 
 
 def skriv_ut_rapport(data):
