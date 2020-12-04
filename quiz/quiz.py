@@ -1,10 +1,9 @@
-import random
-import os
-import json
-import math
+# -*- coding: utf-8 -*-
 import time
-
-# pdoc --html quiz.py
+import math
+import json
+import os
+import random
 
 
 def main():

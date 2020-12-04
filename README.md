@@ -176,3 +176,7 @@ Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom v
     Pytest-biblioteket og kjørt tester på enkelte av funksjonene. Spesielt de som håndterer brukerinputt. For å håndtere feilene som dukket opp ved testingen brukte vi try og except. Vi håndterte kun ValueError. 
 
     Siden det er et terminalprogram der terminalene i de forskjellige operativsystemene er ulike har vi tatt hensyn til det.
+
+    Kjent feil som ikke er håndtert:
+
+    Noen få 
