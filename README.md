@@ -169,13 +169,14 @@ Siden vi skulle levere en py-fil og styre programmet med input fra bruker, kom v
     Se [Dokumentasjon](https://ntnu-miniprosjekt.readthedocs.io/en/latest/quiz.html) for detaljer.
 
     Dokumentasjonen er generert med [sphinx](https://www.sphinx-doc.org/) og er i 3 utgaver.
+    
         - [readthedocs.io](https://ntnu-miniprosjekt.readthedocs.io/en/latest/quiz.html)
         - [Lokal pdf](quiz/docs/pdf/dokumentasjon.pdf)
         - [Lokal HTML](quiz/docs/html/quiz.html)
 
 
     Python-filen ligger her:
-    
+
     [quiz.py](quiz/quiz.py)
 
     
